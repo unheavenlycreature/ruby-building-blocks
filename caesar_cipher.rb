@@ -19,3 +19,5 @@ def caesar_cipher(to_obfuscate, shift)
   end
   obfuscated
 end
+
+puts caesar_cipher("What a string!", 5)
