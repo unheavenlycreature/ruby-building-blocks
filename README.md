@@ -1,0 +1,2 @@
+# Ruby Building Blocks
+This repo contains solutions to the [Ruby Building Blocks](https://www.theodinproject.com/courses/ruby-programming/lessons/building-blocks) exercise from [The Odin Project](https://www.theodinproject.com).
