@@ -9,7 +9,7 @@ end
 def caesar_cipher(to_obfuscate, shift)
   obfuscated = ''
   to_obfuscate.codepoints.each do |codepoint|
-    obfuscated << if (65..90) === codepoint
+    obfuscated += if (65..90) === codepoint
                     shifted_character(codepoint, 65, 90, shift)
                   elsif (97..122) === codepoint
                     shifted_character(codepoint, 97, 122, shift)
